@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+<circle cx="128" cy="128" r="122" fill="#f5c24a" stroke="#14110c" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="128" cy="128" r="102" fill="none" stroke="#14110c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" opacity=".9"/>
+<g>
+<circle cx="76" cy="130" r="4.5" fill="#14110c"/><circle cx="68" cy="116" r="3.2" fill="#14110c"/><circle cx="82" cy="146" r="3.2" fill="#14110c"/>
+<path d="M150 104 h16 q22 0 22 24 v14 q0 24 -22 24 h-16" fill="none" stroke="#14110c" stroke-width="22" stroke-linecap="round"/><path d="M150 104 h16 q22 0 22 24 v14 q0 24 -22 24 h-16" fill="none" stroke="#ffd35a" stroke-width="10" stroke-linecap="round"/>
+<rect x="88" y="88" width="72" height="86" rx="10" fill="#ffd35a" stroke="#14110c" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M107 100 v62 M124 100 v62 M141 100 v62" stroke="#14110c" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity=".95"/>
+<path d="M98 96 v50" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+<g fill="#fff" stroke="#14110c" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"><circle cx="98" cy="86" r="14"/><circle cx="116" cy="72" r="19"/><circle cx="141" cy="76" r="17"/><circle cx="157" cy="90" r="12"/></g>
+<g fill="#fff"><circle cx="98" cy="86" r="11"/><circle cx="116" cy="72" r="16"/><circle cx="141" cy="76" r="14"/><circle cx="157" cy="90" r="9"/></g>
+</g>
+<clipPath id="bc"><circle cx="128" cy="128" r="120"/></clipPath><rect x="0" y="186" width="256" height="48" fill="#14110c" clip-path="url(#bc)"/>
+<path d="M90.32 198.8H96.37Q99.32 198.8 100.8 200.38Q102.27 201.97 102.27 205.03V217.77Q102.27 220.83 100.8 222.42Q99.32 224 96.37 224H90.32ZM96.3 220.4Q97.27 220.4 97.79 219.82Q98.31 219.25 98.31 217.95V204.85Q98.31 203.55 97.79 202.98Q97.27 202.4 96.3 202.4H94.28V220.4ZM107.94 198.8H113.8Q116.86 198.8 118.27 200.22Q119.67 201.64 119.67 204.6V206.14Q119.67 210.07 117.08 211.11V211.18Q118.52 211.62 119.11 212.95Q119.71 214.28 119.71 216.51V220.94Q119.71 222.02 119.78 222.69Q119.85 223.35 120.14 224H116.11Q115.89 223.39 115.82 222.85Q115.75 222.31 115.75 220.9V216.3Q115.75 214.57 115.19 213.88Q114.63 213.2 113.26 213.2H111.9V224H107.94ZM113.34 209.6Q114.52 209.6 115.12 208.99Q115.71 208.38 115.71 206.94V204.99Q115.71 203.62 115.23 203.01Q114.74 202.4 113.7 202.4H111.9V209.6ZM125.44 198.8H129.4V224H125.44ZM135.36 198.8H140.32L144.18 213.88H144.25V198.8H147.78V224H143.71L138.96 205.6H138.88V224H135.36ZM153.73 198.8H157.69V209.42L162.73 198.8H166.69L161.97 208.05L166.76 224H162.62L159.27 212.77L157.69 215.97V224H153.73Z" fill="#f5c24a"/>
+</svg>
