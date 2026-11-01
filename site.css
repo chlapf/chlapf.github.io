@@ -72,3 +72,24 @@ h2{text-transform:uppercase}
 .wide-shot{margin:6px 0 0;max-width:560px}.wide-shot img{display:block;width:100%;height:auto;border-radius:20px;border:2px solid #2a4435;box-shadow:0 18px 40px rgba(0,0,0,.45)}
 @media(max-width:820px){.phone-shot{width:200px}.video-shot{width:215px}}
 @media(prefers-reduced-motion:reduce){.phone-frame video{animation:none}}
+
+/* Bierpong: farbige Abschnitte */
+.cups-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.cup-card{position:relative;background:var(--surface);border:1px solid var(--border);border-radius:22px;padding:18px 18px 20px;overflow:hidden;background-image:radial-gradient(120% 90% at 50% 0%,rgba(79,240,162,.10),transparent 60%)}
+.cup-art{background:linear-gradient(180deg,#1f6a46,#164f34);border-radius:14px;padding:14px 10px;border:2px solid #2a4435;margin-bottom:12px}
+.cup-art svg{display:block;width:100%;height:auto;max-height:150px}
+.cup-n{position:absolute;right:16px;top:14px;font-family:"Bebas Neue",Impact,sans-serif;font-size:44px;line-height:1;color:#fff;text-shadow:0 2px 0 rgba(0,0,0,.35)}
+.cup-card h3{font-family:"Bebas Neue",Impact,sans-serif;font-weight:400;font-size:26px;letter-spacing:.02em;color:var(--mode,var(--mint));margin-bottom:2px}.cup-card p{font-size:14px;color:var(--muted)}
+.duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.duo-card{display:flex;gap:16px;align-items:flex-start;border-radius:22px;padding:20px;border:1px solid var(--border);background:var(--surface)}
+.duo-live{background-image:linear-gradient(135deg,rgba(255,82,54,.16),transparent 60%);border-color:rgba(255,82,54,.4)}
+.duo-turnier{background-image:linear-gradient(135deg,rgba(242,201,76,.16),transparent 60%);border-color:rgba(242,201,76,.4)}
+.duo-icon{flex:none;width:64px;height:64px;border-radius:18px;background:rgba(0,0,0,.28);display:flex;align-items:center;justify-content:center}.duo-icon svg{width:44px;height:44px}
+.duo-card h3{font-family:"Bebas Neue",Impact,sans-serif;font-weight:400;font-size:28px;letter-spacing:.02em;margin-bottom:4px}.duo-live h3{color:#ff7a68}.duo-turnier h3{color:#f2c94c}.duo-card p{font-size:14px;color:var(--muted)}
+.editions{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:14px}
+.edition{background:var(--surface);border:1px solid color-mix(in srgb,var(--c) 45%,var(--border));border-radius:22px;padding:18px;background-image:radial-gradient(110% 70% at 0% 0%,color-mix(in srgb,var(--c) 18%,transparent),transparent 65%);box-shadow:0 0 0 1px color-mix(in srgb,var(--c) 12%,transparent)}
+.ed-head{display:flex;gap:14px;align-items:center;margin-bottom:12px}.ed-head img{width:72px;height:72px;flex:none;filter:drop-shadow(0 6px 14px color-mix(in srgb,var(--c) 40%,transparent))}
+.edition h3{font-family:"Bebas Neue",Impact,sans-serif;font-weight:400;font-size:28px;letter-spacing:.02em;color:var(--c)}.edition .ed-head p{font-size:13px;color:var(--muted)}
+.edition ul{list-style:none;display:grid;gap:8px}.edition li{font-size:14px;color:rgba(242,237,224,.86);background:rgba(0,0,0,.28);border-left:3px solid var(--c);border-radius:8px 12px 12px 8px;padding:8px 12px;line-height:1.4}
+.chip[style*="--c"]{border-left:4px solid var(--c)}.chip[style*="--c"] b{color:var(--c)}
+.cup-card h3,.duo-card h3,.edition h3{text-transform:uppercase}
